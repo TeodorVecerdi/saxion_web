@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Old+Standard+TT&display=swap');
+
+body {
+    background-color: #f7feda;
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+}
+
+a {
+    color: #f5b845;
+}

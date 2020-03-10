@@ -1,4 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+:root {
+    --red: #f05252;
+}
+
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+main article h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.membership .centered *,
+.introduction h1 {
+    font-family: 'Bree Serif', serif !important;
+    color: white;
+}
+
+header {
+    height: 100px;
+    background-color: var(--red);
+}
+
+header h1 {
+    padding: 2rem;
+    float: right;
+}
+
+.membership {
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.centered {
+    padding: 250px 30% 0 30%;
+    margin: auto;
+    display: block;
+}
+
+.membership .centered a {
+    text-decoration: none;
+}
+
+.membership .centered h1 {
+    font-size: 2.5rem;
+}
+
+.membership .centered p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
+.introduction {
+    margin-top: -7.5rem;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.introduction h1 {
+    background-color: black;
+    float: left;
+    clear: none;
+    padding: 5px;
+}
+
+.introduction .right {
+    float: right;
+    background-color: black;
+    clear: none;
+    padding: 20px 30px;
+}
+
+.introduction .right a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+.introduction p {
+    background-color: var(--red);
+    padding: 30px;
+    clear: both;
+}
+
+main article {
+    clear: both;
+    background-color: white;
+	margin: 6rem 15% 2.5rem 15%;
+	padding-bottom: 4rem;
+}
+
+main article h1 {
+    color: var(--red);
+    padding: 2.5rem;
+    border-bottom: solid var(--red) 3.5rem;
+}
+
+main article p {
+	padding-top: 2.5rem;
+	margin-left: 5rem;
 }

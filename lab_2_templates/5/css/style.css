@@ -1,4 +1,109 @@
-*{
-	margin: 0;
-	padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* margin: auto; */
+}
+
+body>header section {
+    background-color: black;
+}
+
+body>header section nav {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+body>header img {
+    float: left;
+    margin-left: 5rem;
+}
+
+nav a {
+    display: inline-block;
+    border-right: solid gray 1px;
+    padding: 5px;
+    padding-right: 8px;
+    /* text-decoration: none; */
+    color: gray;
+}
+
+nav a:last-of-type {
+    display: inline-block;
+    border-right: none;
+    /* text-decoration: none; */
+    color: gray;
+}
+
+.wrapper {
+    padding: 5rem 10rem;
+}
+
+.wrapper a {
+    color: #19a1d6;
+}
+
+.wrapper>header {
+    padding-bottom: 2rem;
+}
+
+.wrapper>header h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    line-height: 5rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper>header img {
+    float: left;
+    border-radius: 100%;
+    padding-right: 5px;
+}
+
+.wrapper>header p:first-of-type {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    color: #555555;
+}
+
+.wrapper>header p:last-of-type {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.wrapper>video {
+    width: 100%;
+}
+
+.wrapper>aside {
+    float: left;
+    padding: 1rem;
+}
+
+.wrapper>aside h2 {
+    padding-bottom: 0.5rem;
+}
+
+.wrapper>aside li {
+    list-style: none;
+    border-top: solid lightgray 1px;
+    padding: 0.5rem;
+    padding-left: 0rem;
+}
+
+.wrapper > p {
+	padding-top: 1rem;
+}
+
+.wrapper > p cite {
+	font-style: normal;
+	font-weight: bold;
 }

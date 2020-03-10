@@ -1,4 +1,78 @@
-*{
-	margin: 0;
-	padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto&display=swap');
+
+* {
+    font-family: 'Bitter', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header styles */
+header {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav h1 {
+    display: none;
+}
+
+header nav {
+    text-align: center;
+    padding: 2em;
+}
+
+header h1 img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+header nav a {
+    padding: 2em;
+    text-decoration: none;
+    color: slategrey;
+}
+
+/* Main styles */
+.wrapperWhite {
+    padding: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+.wrapperWhite article h1 {
+    line-height: 2em;
+}
+
+.wrapperWhite article p {
+    padding: 2em 33%;
+}
+
+/* Footer styles */
+
+footer input,
+footer button {
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
+	border: solid black 5px;
+}
+
+footer input {
+	width: 20em;
+}
+
+footer {
+	text-align: center;
+	margin: auto;
+    background-image: url(../images/bgfooter.gif);
+    padding: 2em 0 6em 0;
 }

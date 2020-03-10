@@ -1,0 +1,67 @@
+Wikipedia - Hubert Dreyfus's
+
+Hubert Dreyfus's views on artificial intelligence
+From Wikipedia, the free encyclopedia
+
+Hubert Dreyfus has been a critic of artificial intelligence research since the 1960s. In a series of papers and books, including Alchemy and AI (1965), What Computers Can't Do (1972; 1979; 1992) and Mind over Machine (1986), he presented a pessimistic assessment of AI's progress and a critique of the philosophical foundations of the field. Dreyfus' objections are discussed in most introductions to the philosophy of artificial intelligence, including Russell &amp; Norvig (2003), the standard AI textbook, and in Fearn (2007), a survey of contemporary philosophy.
+
+Dreyfus argued that human intelligence and expertise depend primarily on unconscious instincts rather than conscious symbolic manipulation, and that these unconscious skills could never be captured in formal rules. His critique was based on the insights of modern continental philosophers such as Merleau-Ponty and Heidegger, and was directed at the first wave of AI research which used high level formal symbols to represent reality and tried to reduce intelligence to symbol manipulation.
+
+When Dreyfus' ideas were first introduced in the mid-1960s, they were met with ridicule and outright hostility. By the 1980s, however, many of his perspectives were rediscovered by researchers working in robotics and the new field of connectionism—approaches now called "sub-symbolic" because they eschew early AI research's emphasis on high level symbols. Historian and AI researcher Daniel Crevier writes: "time has proven the accuracy and perceptiveness of some of Dreyfus's comments." Dreyfus said in 2007 "I figure I won and it's over—they've given up."
+
+Dreyfus' critique
+
+The grandiose promises of artificial intelligence
+
+In Alchemy and AI (1965) and What Computers Can't Do (1972), Dreyfus summarized the history of artificial intelligence and ridiculed the unbridled optimism that permeated the field. For example, Herbert A. Simon, following the success of his program General Problem Solver (1957), predicted that by 1967:
+
+A computer would be world champion in chess.
+A computer would discover and prove an important new mathematical theorem.
+Most theories in psychology will take the form of computer programs.
+
+The press reported these predictions in glowing reports of the imminent arrival of machine intelligence.
+
+Dreyfus felt that this optimism was totally unwarranted. He believed that they were based on false assumptions about the nature of human intelligence. Pamela McCorduck explains Dreyfus position:
+
+A great misunderstanding accounts for public confusion about thinking machines, a misunderstanding perpetrated by the unrealistic claims researchers in AI have been making, claims that thinking machines are already here, or at any rate, just around the corner.
+
+These predictions were based on the success of an "information processing" model of the mind, articulated by Newell and Simon in their physical symbol systems hypothesis, and later expanded into a philosophical position known as computationalism by philosophers such as Jerry Fodor and Hilary Putnam. Believing that they had successfully simulated the essential process of human thought with simple programs, it seemed a short step to producing fully intelligent machines. However, Dreyfus argued that philosophy, especially 20th-century philosophy, had discovered serious problems with this information processing viewpoint. The mind, according to modern philosophy, is nothing like a computer.
+
+What Computers Can't Do written by Hubert L Dreyfus
+
+Dreyfus' four assumptions of artificial intelligence research
+
+In Alchemy and AI and What Computers Can't Do, Dreyfus identified four philosophical assumptions that supported the faith of early AI researchers that human intelligence depended on the manipulation of symbols.[9] "In each case," Dreyfus writes, "the assumption is taken by workers in [AI] as an axiom, guaranteeing results, whereas it is, in fact, one hypothesis among others, to be tested by the success of such work."
+
+The biological assumption The brain processes information in discrete operations by way of some biological equivalent of on/off switches.
+
+In the early days of research into neurology, scientists realized that neurons fire in all-or-nothing pulses. Several researchers, such as Walter Pitts and Warren McCulloch, argued that neurons functioned similar to the way Boolean logic gates operate, and so could be imitated by electronic circuitry at the level of the neuron. When digital computers became widely used in the early 50s, this argument was extended to suggest that the brain was a vast physical symbol system, manipulating the binary symbols of zero and one. Dreyfus was able to refute the biological assumption by citing research in neurology that suggested that the action and timing of neuron firing had analog components. To be fair, however, Daniel Crevier observes that "few still held that belief in the early 1970s, and nobody argued against Dreyfus" about the biological assumption.
+
+The psychological assumption The mind can be viewed as a device operating on bits of information according to formal rules.
+
+He refuted this assumption by showing that much of what we "know" about the world consists of complex attitudes or tendencies that make us lean towards one interpretation over another. He argued that, even when we use explicit symbols, we are using them against an unconscious background of commonsense knowledge and that without this background our symbols cease to mean anything. This background, in Dreyfus' view, was not implemented in individual brains as explicit individual symbols with explicit individual meanings.
+
+The epistemological assumption All knowledge can be formalized.
+
+This concerns the philosophical issue of epistemology, or the study of knowledge. Even if we agree that the psychological assumption is false, AI researchers could still argue (as AI founder John McCarthy has) that it was possible for a symbol processing machine to represent all knowledge, regardless of whether human beings represented knowledge the same way. Dreyfus argued that there was no justification for this assumption, since so much of human knowledge was not symbolic.
+
+The ontological assumption The world consists of independent facts that can be represented by independent symbols
+
+Dreyfus also identified a subtler assumption about the world. AI researchers (and futurists and science fiction writers) often assume that there is no limit to formal, scientific knowledge, because they assume that any phenomenon in the universe can be described by symbols or scientific theories. This assumes that everything that exists can be understood as objects, properties of objects, classes of objects, relations of objects, and so on: precisely those things that can be described by logic, language and mathematics. The question of what exists is called ontology, and so Dreyfus calls this the ontological assumption. If this is false, then it raises doubts about what we can ultimately know and what intelligent machines will ultimately be able to help us to do.
+
+
+Knowing-how vs. knowing-that: the primacy of intuition
+
+In Mind Over Machine (1986), written during the heyday of expert systems, Dreyfus analyzed the difference between human expertise and the programs that claimed to capture it. This expanded on ideas from What Computers Can't Do, where he had made a similar argument criticizing the "cognitive simulation" school of AI research practiced by Allen Newell and Herbert A. Simon in the 1960s.
+
+Dreyfus argued that human problem solving and expertise depend on our background sense of the context, of what is important and interesting given the situation, rather than on the process of searching through combinations of possibilities to find what we need. Dreyfus would describe it in 1986 as the difference between "knowing-that" and "knowing-how", based on Heidegger's distinction of present-at-hand and ready-to-hand.[14]
+
+Knowing-that is our conscious, step-by-step problem solving abilities. We use these skills when we encounter a difficult problem that requires us to stop, step back and search through ideas one at time. At moments like this, the ideas become very precise and simple: they become context free symbols, which we manipulate using logic and language. These are the skills that Newell and Simon had demonstrated with both psychological experiments and computer programs. Dreyfus agreed that their programs adequately imitated the skills he calls "knowing-that."
+
+Knowing-how, on the other hand, is the way we deal with things normally. We take actions without using conscious symbolic reasoning at all, as when we recognize a face, drive ourselves to work or find the right thing to say. We seem to simply jump to the appropriate response, without considering any alternatives. This is the essence of expertise, Dreyfus argued: when our intuitions have been trained to the point that we forget the rules and simply "size up the situation" and react.
+
+The human sense of the situation, according to Dreyfus, is based on our goals, our bodies and our culture—all of our unconscious intuitions, attitudes and knowledge about the world. This “context” or "background" (related to Heidegger's Dasein) is a form of knowledge that is not stored in our brains symbolically, but intuitively in some way. It affects what we notice and what we don't notice, what we expect and what possibilities we don't consider: we discriminate between what is essential and inessential. The things that are inessential are relegated to our "fringe consciousness" (borrowing a phrase from William James): the millions of things we're aware of, but we're not really thinking about right now.
+
+Dreyfus do not believe that AI programs, as they were implemented in the 70s and 80s, could capture this "background" or do the kind of fast problem solving that it allows. He argued that our unconscious knowledge could never be captured symbolically. If AI could not find a way to address these issues, then it was doomed to failure, an exercise in "tree climbing with one's eyes on the moon."
+
+Hubert Dreyfus in 2011

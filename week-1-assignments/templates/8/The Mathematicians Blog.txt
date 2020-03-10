@@ -1,0 +1,59 @@
+The Mathematicians Blog
+
+Monday, September 23, 2013
+Consistency, validity, soundness and completeness
+
+Logical and mathematical systems and theories rest on four great pillars: completeness, soundness, validity and consistency. I have stated them when talking about Gödel's completeness and incompleteness theorems, and I will state them again:
+
+Consistency: we say that a logical system is consistent if we do not have P and ¬P as theorems.
+Validity: one cannot arrive at false statements from true statements by applying theorems we know to be true (including axioms that are taken as true).
+Soundness: every statement that’s proven is true. Converse of completeness.
+Completeness: every true statement can be proven.
+
+Let’s talk about them.
+
+Consistency
+
+The basic villain of all formal systems, we’re always looking for ways to prove that a new system doesn’t have this property. Basically, consistency is the property that a formal system cannot, for any formula P, have P and ¬P be true.
+
+And why is that so bad? Simply because from an inconsistent system everything follows.
+
+Huh?
+
+Suppose there is some statement P such that P and ¬P, and take whatever Q you like. We need to be reminded of something: P → (Q → P) for any P and Q. That’s because Q → P means that if Q is true then P must be true, and if P is false then Q must be false. But if P is true, it doesn’t matter whether Q is true or false, Q → P will still be true. All you gotta do is remind yourself of the basic rules of propositional calculus and see that the truth table for Q → P is the same as that of ¬Q ∨ P.
+
+Now look at the following derivation:
+
+P ∧ ¬P [Hypothesis]
+P [From 1.]
+¬Q → P [From 2.]
+¬P → Q [Contraposition, from 3.]
+¬P [From 1.]
+Q [From 4. and 5.]
+
+Therefore, for whichever proposition Q, we have that (P ∧ ¬P) → Q. And that’s why inconsistency is bad: an inconsistent system can prove anything, and therefore can tell you nothing. If I can prove literally anything at all, then I don’t know what really follows from my axioms.
+
+And that’s why a second way of asserting that a system is consistent is to say that there is at least one sentence Q that is provably unprovable. If there is at least one Q that I provably cannot prove from my axioms, it follows that they must not be inconsistent, because if they were I’d be able to prove Q.
+
+And Gödel's second incompleteness theorem states that it’s impossible for a formal system to affirm its own consistency. If a system says it’s consistent, then it’s lying and it becomes inconsistent. The statement of consistency is undecidable in any system. Therefore, it is impossible to directly prove that any statement is unprovable.
+
+Validity and soundness
+Validity is the property of truth-preserving. This is to say that if all your premises are taken to be true, then your conclusions will be likewise true. Or, in other words, a statement is said to be valid if it indeed follows from your axioms.
+
+Soundness is an extension of validity to a whole formal system. Soundness is the conjunction of the fact that every step in a proof is valid (that is, applying rules and theorems is truth-preserving) and that your axioms are all true. But of course, this concept of soundness only has a semantic relation with reality: if you take your axioms as referring to the world, then your system is sound.
+
+I could add to the theory S of Peano Arithmetic, for instance, the axiom (0 = 1), getting a new theory S’. What this axiom says is that “‘0 = 1’ is provable.” Now, if we actually arrive at this sentence from simple PA, we’d be in trouble because then that’d mean PA is inconsistent. However, because of the above discussion on consistency, we will never be able to prove that ¬(0 = 1). Therefore, since the statement (0 = 1) is, by Gödel’s second incompleteness theorem, undecidable, we can add it as an axiom without losing consistency. And what happens, then?
+
+Then we lose soundness, but validity stays. Furthermore, with this addition we’d be able to prove PA’s Gödel statement and the statement IncPA (that is, PA is inconsistent), without ever actually being inconsistent. This new bizarre theory S’ says that it can prove PA’s inconsistency without actually being inconsistent because the proof will be mysteriously missing. Cool, huh?
+
+Completeness
+A theory is complete if every true statement in it can be proven. That is to say that in all models of that theory, if a statement is semantically implied by the axioms, then it is syntactically implied by them. In symbolic terms, that is to say that if ⊨B then ⊢B.
+
+Hmmm… except not quite. This is what’s called semantic completeness. Semantic completeness is that which states that ⊨B implies ⊢B, and Gödel’s completeness theorem states that every model of first-order logic is semantically complete.
+
+The other kind of completeness, syntactic completeness, states that for every formula P, either P or ¬P is provable. That is to say, there is no sentence that’s undecidable. And then Gödel’s first incompleteness theorem showed that no formal system as strong as basic arithmetic can be both syntactically complete and consistent. Not only that, it also showed that second-order arithmetic isn’t even semantically complete. That’s because while in first-order arithmetic the sentence G is merely undecidable and by the completeness theorem neither true nor false of all models, in second-order arithmetic it is true (semantically) of the standard model of PA and undecidable, and therefore second-order arithmetic isn’t any kind of complete.
+
+So these are the four pillars on which logic rests, plus some interesting trivia about them. Seeya next time!
+
+Posted at 8:09 PM 6 notes Permalink ∞
+Tags: mathematical logic mathema maths mathematics math intuitive 

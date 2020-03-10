@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>A Scientist's Thesis</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<article>
+		<header>
+			<h1>The NOR and NAND operands</h1>
+			<p>Posted at 10:40 PM <a href="#">9 notes</a> <a href="#">Permalink ∞</a></p>
+		</header>
+		<p>I just realised, upon rereading my post about <a href="http://scientiststhesis.tumblr.com/post/51568477316/propositional-logic">Propositional Logic</a>, that I mentioned the operands ¬, ∧, ∨ and → could all be obtained from a single operand but forgot to show it. Indeed I already proved that → is the same as a coalition of the other three, but they still look pretty atomic.</p>
+
+		<p>So first I’ll prove that the set ¬, ∧, ∨ is already redundant and just two of those are enough to imply the third. That’s also easy to see. We know that ¬(A ∧ B) = ¬A ∨ ¬B. Therefore, ¬(¬A ∧ ¬B) = A ∨ B. So a clever manipulation of ¬ and ∧ can result in an equivalent operation to ∨. One can show that if one takes ¬ and ∨ as fundamental one can also derive ∧ so you just need ¬ and one of the other two.</p>
+
+		<p>But indeed, that’s the operation we’re looking for: ¬ coupled with either ∧ or ∨. Those are called, respectively, the NAND and the NOR operations. Let’s invent two new symbols for these two new operands:</p>
+
+		<ul>
+			<li>A ↑ B is NAND, which is true if and only if A is false, B is false or both are false.</li>
+			<li>A ↓ B is NOR, which is true if and only if both A and B are false.</li>
+		</ul>
+
+		<p>That is to say, indeed, that A ↑ B is equivalent to ¬(A ∧ B) and A ↓ B is equivalent to ¬(A ∨ B) in our old notation. But let’s temporarily forget the old notation. Suppose we don’t know ¬, ∧ or ∨ and we only know… ↑. Can we get our old notation back?</p>
+
+		<p>Indeed we can. Look:</p>
+
+		<ul>
+			<li>A ↑ A = ¬A</li>
+			<li>(A ↑ A) ↑ (B ↑ B) = A ∨ B</li>
+			<li>(A ↑ B) ↑ (A ↑ B) = A ∧ B</li>
+		</ul>
+
+		<p>(You can check that for yourself.) So repeated and clever application of ↑ can get back all the other three. It can even get back the NOR operation:</p>
+
+		<ul>
+			<li>[(A ↑ A) ↑ (B ↑ B)] ↑ [(A ↑ A) ↑ (B ↑ B)] = A ↓ B</li>
+		</ul>
+
+		<p>If you take ↓ as your basic operand you can get all the others back in a similar fashion. So the NOR and the NAND operations are much more fundamental than AND, NOT and OR. Taking just one of them as our basic operation allows us to simulate all of the others. Of course, having the multiple symbols helps, but they can all be defined in function of the more fundamental one.</p>
+		<footer>
+			<p>Tags: <a href="#">mathema</a> <a href="#">mathematical logic</a> <a href="#">propositional logic</a> <a href="#">nand</a> <a href="#">nor</a> <a href="#">maths</a> <a href="#">math</a> <a href="">mathematics</a></p>
+		</footer>
+	</article>
+</body>
+</html>

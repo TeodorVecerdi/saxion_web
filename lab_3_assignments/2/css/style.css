@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 2000px;
+	background-image: url('../images/bg.jpg');
+	background-repeat: repeat;
+}

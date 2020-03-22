@@ -1,9 +1,35 @@
-body, div, ul, li, a, p{
-	margin: 0;
-	padding: 0;
+body,
+div,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	margin: 0;
-	background-color: #CCCCCC;
+body {
+    margin: 0;
+    background-color: #CCCCCC;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container section {
+	background-color: #999999;
+}
+ .container p {
+    margin-top: 3rem;
+    padding: 2.5rem;
+    background-color: #DDDDDD;
+}
+
+.container section:hover p {
+    position: relative;
+    top: -10px;
+    left: -60px;
 }

@@ -1,8 +1,70 @@
-body, div, ul, li, a, p{
-	margin: 0;
-	padding: 0;
+body,
+div,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background-color: #DDDDDD;
+body {
+    background-color: #DDDDDD;
+}
+
+.formContainer {
+    position: absolute;
+    left: 50%;
+    top: 10rem;
+    width: 25rem;
+    transform: translateX(-50%);
+    background-color: #111111;
+    padding: 1rem;
+
+    box-sizing: border-box;
+}
+
+form>* {
+    display: block;
+    margin-bottom: 15px;
+}
+
+form button {
+    margin-bottom: 0px;
+    padding-top: 15px;
+	padding-bottom: 15px;
+    width: 100%;
+	
+	background-color: #ffc400;
+	font-weight: bold;
+	border: none;
+}
+
+form input,
+form textarea {
+    padding: 0;	
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+form textarea {
+	padding-bottom: 24px;
+}
+
+.close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    padding: 5px 2.5px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.close a {
+    text-decoration: none;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid #e9d200;
+    padding: 2.5px 5px;
 }

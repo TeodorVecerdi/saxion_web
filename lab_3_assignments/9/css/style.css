@@ -1,11 +1,91 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
 
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background-color: #F5EBDA;
-	font-family: 'Source Sans Pro', sans-serif;
+body {
+    background-color: #F5EBDA;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+
+/* HEADER */
+ul {
+    list-style: none;
+    font-size: 0;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 2rem;
+}
+
+.nav-item {
+    display: inline-block;
+    position: relative;
+    font-size: initial;
+}
+
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #c2422c;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
+.nav-item.active {
+    border: 2px solid #cccccc;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: -2px;
+}
+
+
+/* MAIN SECTION */
+.main-section {
+    margin-top: 3rem;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 3rem;
+}
+
+.main-section p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.img-big {
+    float: right;
+}
+
+
+/* BOOK SECTION */
+.book-section {
+	margin-top: 2rem;
+}
+
+.book-section .book-container img {
+	margin-left: 1rem;
+	margin-right: 1rem;
 }

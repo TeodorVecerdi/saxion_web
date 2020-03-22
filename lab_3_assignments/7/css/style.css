@@ -1,8 +1,28 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-	margin: 0;
-	background-color: #CCCCCC;
+
+body {
+    margin: 0;
+    background-color: #CCCCCC;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.special {
+    position: relative;
+    top: -10px;
+    left: -60px;
+    background-color: #EEEEEE !important;
+}
+
+.container p {
+    margin-top: 3rem;
+    padding: 2.5rem;
+    background-color: #DDDDDD;
 }

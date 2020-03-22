@@ -1,37 +1,69 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background-color: #AAAAAA;
+body {
+    background-color: #AAAAAA;
 }
 
-div{
-	width: 960px;
-	padding: 20px;
-	margin: 20px auto 0;
-	background-color: #FFFFFF;
+div {
+    width: 960px;
+    padding: 20px;
+    margin: 20px auto 0;
+    background-color: #FFFFFF;
 }
 
-ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-a:hover{
-	text-decoration: none;
+a:hover {
+    text-decoration: none;
 }
 
-.blockElements li{
+.blockElements {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
 }
 
-.inlineElements a{
+.blockElements li {
+    display: inline-block;
 }
 
-.inlineBlockElements a{
+.inlineElements {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+}
 
+.inlineElements a {
+    display: block;
+}
+
+.inlineBlockElements {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+	padding: 2rem;
+	font-size: 0;
+}
+
+.inlineBlockElements a {
+	font-size: initial;
+    margin: 0;
+    padding: 16px;
 	background-color: #000000;
-	color: #FFFFFF;
+    color: #FFFFFF;
 }

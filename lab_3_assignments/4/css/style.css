@@ -1,20 +1,31 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	background-color: #DDDDDD;
-	font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-	width: 1000px;
-	height: 450px;
-
-	background-color: #FFDDDD; /* You can remove this */
+.container {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+	left:50%;
+	transform: translateX(-50%);
+    background-image: url(../images/black-hole.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-h1{
-	margin: 0;
+h1 {
+    position: absolute;
+    padding: 10px;
+    bottom: -22px;
+    right: 32px;
+    float: right;
+    color: white;
+    background-color: black;
 }

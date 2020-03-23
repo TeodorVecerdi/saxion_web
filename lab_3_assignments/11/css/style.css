@@ -1,8 +1,73 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-	font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+
+
+}
+
+nav {
+    height: 100%;
+}
+
+.header-logo {
+    margin-left: 3rem;
+    padding-right: 0.5rem;
+    margin-top: 0.5rem;
+    /* margin-top: 1.3rem; */
+}
+
+.header-logo::after {
+    margin-left: initial;
+    padding-right: initial;
+    margin-top: initial;
+    /* margin-top: 1.3rem; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav * {
+    display: inline;
+}
+
+.nav-item {
+    height: 100%;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align: bottom;
+    border-left: 1px solid gray;
+    padding-top: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.nav-item a img {
+    vertical-align: text-bottom;
+}
+
+nav li:first-child a {
+    background-color: pink;
+    vertical-align: initial;
+    padding-right: 5rem;
+}
+
+.top-section {
+    background-image: url(../images/mig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

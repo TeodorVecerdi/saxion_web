@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+body a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    margin-right: 1px;
+}
+
+@media screen and (max-width: 960px) {
+    body a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 1px;
+    }
+}

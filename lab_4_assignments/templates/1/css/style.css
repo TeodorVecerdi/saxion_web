@@ -1,4 +1,20 @@
-body{
-	margin: 0;
-	padding: 20px;
+body {
+    margin: 0;
+    padding: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 40px);
+}
+
+body div {
+	margin: 0 auto;
+    background-color: gray;
+    max-width: 1000px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    body div {
+        max-width: initial;
+        width: calc(100%);
+    }
 }

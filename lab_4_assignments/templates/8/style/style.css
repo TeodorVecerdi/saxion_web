@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+}
+section {
+    font-weight: bold;
+    text-align: center;
+}
+
+section > * {
+    padding: 10px;
+}
+
+header {
+    background-color:brown;
+
+}
+
+footer {
+    background: lightgreen;
+}
+
+main {
+    text-align: left;
+    background: deepskyblue;
+}
+
+.aside_1{
+    background: gold;
+}
+
+.aside_2{
+    background: hotpink;
+}
+
+

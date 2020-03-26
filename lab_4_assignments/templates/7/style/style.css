@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 80%;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+}
+
+.container div{
+	height: 60px;
+	margin: 10px;
+	padding: 10px;
+	flex: 0 0 60px;
+	background-color: #FFFFFF;
+}
